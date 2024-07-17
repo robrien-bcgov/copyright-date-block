@@ -18,7 +18,7 @@ import "./style.scss";
  * Internal dependencies
  */
 import Edit from "./edit";
-import save from "./save";
+//import save from "./save"; this is a dynamic block!
 import metadata from "./block.json";
 
 /**
@@ -35,5 +35,5 @@ registerBlockType(metadata.name, {
 	/**
 	 * @see ./save.js
 	 */
-	save, // shorthand because the component exported in save.js is also called `save`
+	//save, // shorthand because the component exported in save.js is also called `save`
 });
